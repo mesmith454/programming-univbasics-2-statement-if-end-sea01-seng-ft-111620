@@ -6,3 +6,5 @@ if current_time % 2 == 0
 else
   puts "Odd!"
 end
+
+#alternate solution changes line 4 to if current_time.even?
