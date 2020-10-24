@@ -1,6 +1,6 @@
-current_time = "#{Time.now}"
+current_time = "#{Time.now.to_i}"
   puts "#{Time.now}"
-if current_time.to_i.even ? = true
+if current_time.even ? = true
   puts "Even!"
 else
   puts "Odd!"
